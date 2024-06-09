@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffebaa;
+    transition: .6s ease;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+header ul li{
+    margin-left: 20px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+header .one{
+    padding: 30px;
+
+}
+.one li:not(.header):hover {
+    color: rgb(197, 255, 236);
+}
+.one li h2{
+    font-weight: 400;
+    font-size: 2.4em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+} 
+header .two{
+    padding: 30px;
+}
+.two .Order{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    transition: .5s ease;
+}
+.two .Order:hover{
+    background-color: rgb(14, 75, 12);
+}
+section{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+
+}
+.first{
+    background: url("images/comment-ouvrir-un-coffee-shop.jpg");
+   
+}
+.first h2{
+    color: white;
+    position: absolute;
+    top:15%;
+    left: 5%;
+    font-size: 5em;
+    width: 50%;
+}
+.first h3{
+    position: absolute;
+    text-transform: capitalize;
+    background-color: #ffebaa ;
+    right: 10%;
+    padding: 15px 20px;
+    bottom: 10%;
+    font-size: 2em;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.first h3:hover{
+    background-color: rgb(14, 75, 12);
+    color: white;
+}
+.second{
+    background-color: rgb(255, 249, 240);
+
+}
+.second p{
+    position: absolute;
+    top: 40%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.4em;
+    width: 60%;
+    left: 20%; 
+
+}
+
+.third{
+    background-color: #ffebaa;
+    padding: 60px 30px;
+}
+.third h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    font-size: 2.4em;
+    letter-spacing: .1.9em;
+    font-weight: 200;
+
+}
+.third .container{
+    display: flex;
+    width: 100%;
+}
+.third .container .card{
+    position: relative;
+    width: 400px;
+    margin-left: 30px;
+    height: 500px;
+}
+.card h2{
+    position: absolute;
+    left: 0;
+    display: flex; 
+    margin: 20px 0;
+}
+.card p{
+    margin-top: 20px;
+    position: absolute;
+    font-size: 1.3em;
+    top: 70%;
+    font-weight: 200;
+}
+footer{
+    background-color: rgb(117, 166, 166);
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+}
+footer .up{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+    height: 60%;
+    width: 100%;
+}
+footer .visit{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 20%;
+}
+footer .visit h2{
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+footer .visit .info{
+    margin-bottom: 30px;
+}
+footer .visit .info li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+footer .visit .info a{
+    text-decoration: none;
+    color: black;    
+}
+footer .talk {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .talk .info{
+    font-size: 1.3em;
+    font-weight: 200;
+}
+footer .talk .btn{
+    display: flex;
+    width: 100%;
+}
+footer .talk .info input{
+    height: 20px;
+    width: 300px;
+    padding: 10px;
+    background-color: transparent;
+    outline: none;
+    border: 0px;
+    border-bottom: 2px solid #000;
+}
+footer .talk .info button{
+    padding:  5px 20px;
+    background-color: #000;
+    border: none;
+    font-size: .7em;
+    font-weight: 400;
+    cursor: pointer;
+    color: white;
+    transition: .5s ease;
+}
+footer .talk .info button:hover{
+    background-color: green;
+}
+.down ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.down ul li{
+    margin-left: 20px;
+}
+.down ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: .9em;
+    font-weight: 300;
+}
+.down h3{
+    display: flex;
+    justify-content: center;
+}
